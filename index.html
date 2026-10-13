@@ -84,7 +84,7 @@
             <li>Python</li>
         </ul>
 </tr>
-
+ 
 <tr>
     <th>Hobbies</th>
     <td colspan="2">
@@ -110,3 +110,79 @@
     </table>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration Form</title>
+</head>
+<body>
+
+    <h1>Conference Registration Form</h1>
+
+    <form>
+        <fieldset>
+            <leggend>Personal Information</legend>
+
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <br><br>
+        </fieldset>
+  
+        <fieldset>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <fieldset>
+
+       <label for="age">Age</label>
+       <input type="number" id="age" name="age" min="18" max="100" required>
+       <br><br>
+
+       <label for="gender">Gender</label>
+<br>
+       <input type="radio"  name="gender" value="Male">Male<br>
+       <input type="radio" name="gender" value="Female">Female<br>
+       <input type="radio" name="gender" value="Other">Other<br>
+       <br><br>
+
+       <label for="Country">Country of Residence</label>
+       <select name="country">
+               <option value="Select a Country">Select a Country</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Indonesia">Indonesia</option>
+              <option value="Thailand">Thailand</option>
+              </select>
+<br><br> 
+
+        <label for="area">Area of Interest</label><br>
+        <input type="checkbox" name="interest" value="Software Development">Software Development<br>
+        <input type="checkbox" name="interest" value="Data Science">Data Science<br>
+        <input type="checkbox" name="interest" value="Cybersecurity">Cybersecurity<br>
+        <input type="checkbox" name="interest" value="Artificial Intelligence">Artificial Intelligence<br>
+         <br><br> 
+         
+        <label for="experiencelevel">Experience Level</label><br>
+        <input type="radio" name="experiencelevel" value="Beginner">Beginner<br>
+        <input type="radio" name="experiencelevel" value="Intermediate">Intermediate<br>
+        <input type="radio" name="experiencelevel" value="Advanced">Advanced<br>    
+         <br><br>
+
+
+       Comments or Questions:<br>
+       <textarea name="comments" rows="4" cols="50" placeholder="Any Comments or Questions?"></textarea>
+       <br>
+       
+       <input type="submit" value="Register">
+       <input type="reset" value="Reset">
+
+
+    </form>
+    
+</body>
+</html>
+
+
